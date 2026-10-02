@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="12dp"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_700"
+        android:fontFamily="@font/daydream"
+        android:text="@string/tvMessage"
+        android:textColor="@color/white"
+        android:textSize="@dimen/tvTitle_textSize" />
+
+    <TextView
+        android:id="@+id/tvTituloRemitente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Remitente:"
+        android:textSize="20sp" />
+
+
+    <EditText
+        android:id="@+id/etRemitente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Escribe aquí el remitente"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/tvTituloDestinatario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Destinatario:"
+        android:textSize="20sp" />
+
+
+    <EditText
+        android:id="@+id/etDestinatario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Escribe aquí el destinatario"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/tvTituloMensaje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mensaje:"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/etMessageText"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:autofillHints="text"
+        android:ems="10"
+        android:hint="@string/etMessageText"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/btSend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonName" />
+</LinearLayout>

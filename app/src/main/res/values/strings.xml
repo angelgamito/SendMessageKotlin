@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SendMessage</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="etMessageText">Escribe aquí tu mensaje</string>
+    <string name="buttonName">Enviar</string>
+    <string name="tvMessage">Aplicacion SMS</string>
+    <string name="tv2Message">ViewMessage</string>
+    <string name="assetvector">Asset Vector</string>
+    <string name="textview_message">...</string>
+</resources>
