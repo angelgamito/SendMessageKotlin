@@ -45,7 +45,7 @@ class ViewMessageActivity : AppCompatActivity() {
 
         // (IA) pillamos el bundle del intent y deserializamos el objeto Message
         val bundle = intent.extras // (IA)
-        val message = bundle?.getSerializable("KEY_MESSAGE") as? Message // (IA)
+        val message = bundle?.getParcelable("KEY_MESSAGE") as? Message // (IA)
 
         // (IA) mostramos los datos sacados del objeto message
         if (message != null) { // (IA)

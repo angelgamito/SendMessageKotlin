@@ -8,6 +8,10 @@ inicial a una segunda pantalla que muestra dicho contenido.
 
 ## 1. Capturas de pantalla de la app en ejecución
 
+| Pantalla Principal (`SendMessageActivity`) | Pantalla de Recepción (`ViewMessageActivity`) |
+| :---: | :---: |
+| ![SendMessageActivity](images/SendMessageActivity.png) | ![ViewMessageActivity](images/ViewMessageActivity.png) |
+
 ---
 
 ## 2. Estructura del proyecto y decisiones de diseño

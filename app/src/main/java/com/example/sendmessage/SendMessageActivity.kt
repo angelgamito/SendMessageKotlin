@@ -97,7 +97,7 @@ class SendMessageActivity : AppCompatActivity() {
 
         // (IA) metemos el mensaje completo con el remitente y destinatario
         val message = Message(1, etMessageText.text.toString(), sender, receiver)
-        bundle.putSerializable("KEY_MESSAGE", message)
+        bundle.putParcelable("KEY_MESSAGE", message)
         intent.putExtras(bundle)
         startActivity(intent)
     }
