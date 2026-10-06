@@ -6,7 +6,11 @@ inicial a una segunda pantalla que muestra dicho contenido.
 
 ---
 
-## 1. Capturas de pantalla de la app en ejecución
+## 1. Capturas de pantalla de la aplicación en ejecución
+
+| Pantalla Principal (`SendMessageActivity`) | Pantalla de Recepción (`ViewMessageActivity`) |
+| :---: | :---: |
+| ![SendMessageActivity](images/SendMessageActivity.png) | ![ViewMessageActivity](images/ViewMessageActivity.png) |
 
 | Pantalla Principal (`SendMessageActivity`) | Pantalla de Recepción (`ViewMessageActivity`) |
 | :---: | :---: |
