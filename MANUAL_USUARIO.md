@@ -1,19 +1,27 @@
-# Guía rápida para usar la app
+# Manual de Usuario - App SendMessage
 
-¡Hola! Esta aplicación sirve para escribir un texto corto y mandarlo a una segunda pantalla para
-verlo más claro. Usarla es súper fácil, solo tienes que seguir estos 3 pasos:
+Esta aplicación permite redactar y enviar mensajes de forma rápida entre dos pantallas, registrando los datos del **remitente**, del **destinatario** y el **contenido del mensaje**.
 
-### Paso 1: Escribe tu mensaje
+### Paso 1: Rellenar los campos del formulario
 
-Abre la aplicación en tu móvil. En la pantalla principal verás un hueco para escribir. Toca sobre él
-y escribe el texto o mensaje que quieras mandar.
+Abre la aplicación en tu dispositivo o emulador. En la pantalla principal encontrarás tres campos de texto:
 
-### Paso 2: Pulsa el botón de enviar
+1. **Remitente:** Escribe tu nombre o el identificador de la persona que envía el mensaje.
+2. **Destinatario:** Escribe el nombre o identificador de la persona que va a recibir el mensaje.
+3. **Mensaje:** Escribe el contenido o texto que deseas transmitir.
 
-Una vez hayas terminado de escribir, toca el botón que pone **Enviar** que está justo debajo.
+---
 
-### Paso 3: Consulta tu mensaje
+### Paso 2: Enviar el mensaje
 
-Automáticamente se abrirá una pantalla nueva donde podrás ver el mensaje que acabas de escribir bien
-grande en el centro. ¡Y listo! Si quieres mandar otro mensaje, solo tienes que darle hacia atrás en
-tu móvil y volver a empezar.
+Una vez completados los tres campos, pulsa el botón **Enviar** situado en la parte inferior de la pantalla.
+
+---
+
+### Paso 3: Consultar el mensaje recibido
+
+Se abrirá automáticamente la segunda pantalla (**Pantalla de Recepción**) donde podrás verificar:
+
+- El **Remitente** que envió el mensaje.
+- El **Destinatario** asignado.
+- El **Texto completo del mensaje** enviado.

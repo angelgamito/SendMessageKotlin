@@ -7,7 +7,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.example.sendmessage.model.Message // (IA) importamos el modelo Message
+import com.example.sendmessage.model.Message
 
 /**
  * Segunda pantalla de la aplicación.
@@ -38,21 +38,21 @@ class ViewMessageActivity : AppCompatActivity() {
         }
 
 
-        // (IA) obtenemos las referencias de los TextViews
-        val tvRemitente = findViewById<TextView>(R.id.tvRemitente) // (IA)
-        val tvDestinatario = findViewById<TextView>(R.id.tvDestinatario) // (IA)
+        // obtenemos las referencias de los TextViews
+        val tvRemitente = findViewById<TextView>(R.id.tvRemitente)
+        val tvDestinatario = findViewById<TextView>(R.id.tvDestinatario)
         val tvMessage = findViewById<TextView>(R.id.tvMensaje)
 
-        // (IA) pillamos el bundle del intent y deserializamos el objeto Message
-        val bundle = intent.extras // (IA)
-        val message = bundle?.getParcelable("KEY_MESSAGE") as? Message // (IA)
+        // cogemos el bundle del intent y deserializamos el objeto Message
+        val bundle = intent.extras
+        val message = bundle?.getParcelable("KEY_MESSAGE") as? Message
 
-        // (IA) mostramos los datos sacados del objeto message
-        if (message != null) { // (IA)
-            tvRemitente.text = message.sender.name // (IA)
-            tvDestinatario.text = message.receiver.name // (IA)
-            tvMessage.text = message.content // (IA)
-        } // (IA)
+        // mostramos los datos sacados del objeto message
+        if (message != null) {
+            tvRemitente.text = message.sender.name
+            tvDestinatario.text = message.receiver.name
+            tvMessage.text = message.content
+        }
 
 
         Log.d(TAG, "ViewMessageActivity -> onCreate()")

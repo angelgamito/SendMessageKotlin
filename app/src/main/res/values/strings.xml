@@ -1,14 +1,22 @@
 <resources>
     <string name="app_name">SendMessage</string>
     <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">First Fragment</string>
-    <string name="second_fragment_label">Second Fragment</string>
-    <string name="next">Next</string>
-    <string name="previous">Previous</string>
+    <string name="first_fragment_label" translatable="false">First Fragment</string>
+    <string name="second_fragment_label" translatable="false">Second Fragment</string>
+    <string name="next" translatable="false">Next</string>
+    <string name="previous" translatable="false">Previous</string>
     <string name="etMessageText">Escribe aquí tu mensaje</string>
     <string name="buttonName">Enviar</string>
     <string name="tvMessage">Aplicacion SMS</string>
-    <string name="tv2Message">ViewMessage</string>
-    <string name="assetvector">Asset Vector</string>
-    <string name="textview_message">...</string>
+    <string name="tv2Message" translatable="false">ViewMessage</string>
+    <string name="assetvector" translatable="false">Asset Vector</string>
+    <string name="textview_message" translatable="false">...</string>
+    <string name="remitente">Remitente:</string>
+    <string name="remitente_escribe">Escribe aquí el remitente</string>
+    <string name="destinatario">Destinatario:</string>
+    <string name="destinatario_escribe">Escribe aquí el destinatario</string>
+    <string name="mensaje">Mensaje:</string>
+    <string name="remitente_titulo">Remitente:</string>
+    <string name="guion" translatable="false">-</string>
+    <string name="destinatario_titulo">Destinatario:</string>
 </resources>

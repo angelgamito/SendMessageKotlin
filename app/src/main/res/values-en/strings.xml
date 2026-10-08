@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SendMessage</string>
+    <string name="etMessageText">Write your message here</string>
+    <string name="buttonName">Send</string>
+    <string name="tvMessage">SMS App</string>
+    <string name="remitente">Sender:</string>
+    <string name="remitente_escribe">Write the sender here</string>
+    <string name="destinatario">Recipient:</string>
+    <string name="destinatario_escribe">Write the recipient here</string>
+    <string name="mensaje">Message:</string>
+    <string name="remitente_titulo">Sender:</string>
+    <string name="destinatario_titulo">Recipient:</string>
+</resources>

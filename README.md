@@ -1,7 +1,8 @@
 # App SendMessage
 
-Aplicación sencilla desarrollada para el módulo de Desarrollo de Interfaces (
-2º DAM). El objetivo de la app es enviar un texto introducido por el usuario desde una actividad
+[![Licencia](https://img.shields.io/badge/licencia-Apache%202.0-blue.svg)](LICENSE)
+
+Aplicación sencilla desarrollada para el módulo de Desarrollo de Interfaces (2º DAM). El objetivo de la app es enviar un texto introducido por el usuario desde una actividad
 inicial a una segunda pantalla que muestra dicho contenido.
 
 ---
@@ -12,9 +13,6 @@ inicial a una segunda pantalla que muestra dicho contenido.
 | :---: | :---: |
 | ![SendMessageActivity](images/SendMessageActivity.png) | ![ViewMessageActivity](images/ViewMessageActivity.png) |
 
-| Pantalla Principal (`SendMessageActivity`) | Pantalla de Recepción (`ViewMessageActivity`) |
-| :---: | :---: |
-| ![SendMessageActivity](images/SendMessageActivity.png) | ![ViewMessageActivity](images/ViewMessageActivity.png) |
 
 ---
 
@@ -68,3 +66,17 @@ donde la aplicación almacena sus ficheros en el emulador:
 * [Android Developers - Intent y Filtros de Intent](https://developer.android.com/guide/components/intents-filters?hl=es-419)
 * [Android Developers - Transferencia de datos entre actividades](https://developer.android.com/guide/components/activities/parcelable-and-bundle?hl=es-419)
 * [Android Developers - Guía de layouts con LinearLayout](https://developer.android.com/develop/ui/views/layout/linear?hl=es-419)
+
+---
+
+## 6. Licencia
+
+Este proyecto se publica bajo la licencia **Apache License 2.0**, el estándar de los proyectos Android. El texto legal completo se encuentra en el fichero [`LICENSE`](LICENSE) en la raíz del repositorio.
+
+Copyright © 2026 Angel
+
+**Resumen rápido de lo que esta licencia permite y no permite a otros desarrolladores que copien el código:**
+
+* **Permite:** usar, copiar, modificar, fusionar, distribuir, sublicentar e incluso vender copias del software, siempre que se conserve el aviso de copyright y el fichero `LICENSE` originales.
+* **Permite:** reutilizar el código en proyectos propios (también comerciales) y publicar versiones modificadas, dejando constancia de los cambios realizados sobre el código original.
+* **No permite:** utilizar el nombre ni las marcas de los titulares originales para promocionar dichos proyectos sin su autorización; además, el software se entrega "tal cual", sin garantía de ningún tipo.

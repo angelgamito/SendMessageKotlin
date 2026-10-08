@@ -24,35 +24,35 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="20sp"
-        android:text="Remitente:" />
+        android:text="@string/remitente_titulo" />
 
     <TextView
         android:id="@+id/tvRemitente"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="20sp"
-        android:text="-" />
+        android:text="@string/guion"/>
 
     <TextView
         android:id="@+id/tvTituloDestinatario"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="20sp"
-        android:text="Destinatario:" />
+        android:text="@string/destinatario_titulo" />
 
     <TextView
         android:id="@+id/tvDestinatario"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="20sp"
-        android:text="-" />
+        android:text="@string/guion" />
 
     <TextView
         android:id="@+id/tvTituloMensaje"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="20sp"
-        android:text="Mensaje:" />
+        android:text="@string/mensaje"/>
 
     <TextView
         android:id="@+id/tvMensaje"

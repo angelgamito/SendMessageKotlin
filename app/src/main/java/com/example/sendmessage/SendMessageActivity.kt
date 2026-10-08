@@ -36,10 +36,10 @@ import com.example.sendmessage.model.Person
  */
 class SendMessageActivity : AppCompatActivity() {
     lateinit var etMessageText: EditText
-    // (IA) declaramos los edittext para remitente y destinatario, y el boton de tipo Button
-    lateinit var etRemitente: EditText // (IA)
-    lateinit var etDestinatario: EditText // (IA)
-    lateinit var btSend: Button // (IA)
+    // declaramos los edittext para remitente y destinatario, y el boton de tipo Button
+    lateinit var etRemitente: EditText
+    lateinit var etDestinatario: EditText
+    lateinit var btSend: Button
 
     companion object {
         const val TAG: String = "LogSendMessageActivity"
@@ -55,9 +55,9 @@ class SendMessageActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_send_message)
-        // (IA) obtenemos las referencias de todos los elementos de la vista
-        etRemitente = findViewById(R.id.etRemitente) // (IA)
-        etDestinatario = findViewById(R.id.etDestinatario) // (IA)
+        // obtenemos las referencias de todos los elementos de la vista
+        etRemitente = findViewById(R.id.etRemitente)
+        etDestinatario = findViewById(R.id.etDestinatario)
         etMessageText = findViewById(R.id.etMessageText)
         btSend = findViewById(R.id.btSend)
         // Listener para enviar el mensaje al pulsar el botón
@@ -91,11 +91,11 @@ class SendMessageActivity : AppCompatActivity() {
         //2 Creamos un Bundle para empaquetar los datos
         val bundle = Bundle()
         
-        // (IA) creamos las personas cogiendo los datos introducidos en los EditText
+        // creamos las personas cogiendo los datos introducidos en los EditText
         val sender = Person("12345678A", etRemitente.text.toString(), "") // (IA)
         val receiver = Person("98765432A", etDestinatario.text.toString(), "") // (IA)
 
-        // (IA) metemos el mensaje completo con el remitente y destinatario
+        // metemos el mensaje completo con el remitente y destinatario
         val message = Message(1, etMessageText.text.toString(), sender, receiver)
         bundle.putParcelable("KEY_MESSAGE", message)
         intent.putExtras(bundle)

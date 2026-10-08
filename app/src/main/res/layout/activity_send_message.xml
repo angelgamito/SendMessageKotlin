@@ -21,7 +21,7 @@
         android:id="@+id/tvTituloRemitente"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Remitente:"
+        android:text="@string/remitente"
         android:textSize="20sp" />
 
 
@@ -30,14 +30,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="Escribe aquí el remitente"
+        android:hint="@string/remitente_escribe"
         android:inputType="text" />
 
     <TextView
         android:id="@+id/tvTituloDestinatario"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Destinatario:"
+        android:text="@string/destinatario"
         android:textSize="20sp" />
 
 
@@ -46,14 +46,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="Escribe aquí el destinatario"
+        android:hint="@string/destinatario_escribe"
         android:inputType="text" />
 
     <TextView
         android:id="@+id/tvTituloMensaje"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Mensaje:"
+        android:text="@string/mensaje"
         android:textSize="20sp" />
 
     <EditText
